@@ -101,23 +101,7 @@ bot.send(
             ),
             types.BotCommand(
                 command="play",
-                description="Play song from youtube/audiofile"
-            ),
-            types.BotCommand(
-                command="splay",
-                description="Play song from JioSaavn, use -a flag to play an album."
-            ),
-            types.BotCommand(
-                command="cplay",
-                description="Plays music files from a channel."
-            ),
-            types.BotCommand(
-                command="yplay",
-                description="Plays music files from a youtube playlist."
-            ),
-            types.BotCommand(
-                command="player",
-                description="Shows current playing song with controls"
+                description="Play channel name"
             ),
             types.BotCommand(
                 command="playlist",
@@ -132,36 +116,8 @@ bot.send(
                 description="Shuffle the playlist"
             ),
             types.BotCommand(
-                command="export",
-                description="Export current playlist as json file for future use."
-            ),
-            types.BotCommand(
-                command="import",
-                description="Import a previously exported playlist."
-            ),
-            types.BotCommand(
-                command="upload",
-                description="Upload current playing song as audio file."
-            ),
-            types.BotCommand(
                 command="skip",
                 description="Skip the current song"
-            ),           
-            types.BotCommand(
-                command="join",
-                description="Join VC"
-            ),
-            types.BotCommand(
-                command="leave",
-                description="Leave from VC"
-            ),
-            types.BotCommand(
-                command="vc",
-                description="Ckeck if VC is joined"
-            ),
-            types.BotCommand(
-                command="stop",
-                description="Stops Playing"
             ),
             types.BotCommand(
                 command="radio",
@@ -170,14 +126,6 @@ bot.send(
             types.BotCommand(
                 command="stopradio",
                 description="Stops radio/Livestream"
-            ),
-            types.BotCommand(
-                command="replay",
-                description="Replay from beggining"
-            ),
-            types.BotCommand(
-                command="clean",
-                description="Cleans RAW files"
             ),
             types.BotCommand(
                 command="pause",
@@ -190,10 +138,6 @@ bot.send(
             types.BotCommand(
                 command="mute",
                 description="Mute in VC"
-            ),
-            types.BotCommand(
-                command="volume",
-                description="Set volume between 0-200"
             ),
             types.BotCommand(
                 command="unmute",
