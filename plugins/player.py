@@ -287,8 +287,7 @@ async def notforu(_, m: Message):
     k=await m.reply("Who the hell you are?.")
     await mp.delete(k)
     await mp.delete(m)
-allcmd = ["play",
- + admincmds
+allcmd = ["play"] + admincmds
 
 @Client.on_message(filters.command(allcmd) & ~filters.chat(CHAT) & filters.group)
 async def not_chat(_, m: Message):
